@@ -1,5 +1,9 @@
 import { IRoundProps } from './Rounds';
 
+export type IMobileProps = {
+  mobileBreakpoint?: number;
+};
+
 export type ISeedProps = {
   id: number | string;
   teams: Array<{ name?: string; [key: string]: any }>;

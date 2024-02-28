@@ -1,7 +1,7 @@
 import React from 'react';
-import DoubleElimination from './components/double-elimination';
-import LoadingBracket from './components/loading';
-import SingleElimination from './components/single-elimination';
+import DoubleElimination from "./components/double-elimination";
+import LoadingBracket from "./components/loading";
+import SingleElimination from "./components/single-elimination";
 
 const App = () => {
   return (
